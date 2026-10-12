@@ -37,6 +37,10 @@ jobs:
 
       - name: Build website
         run: npm run build
+        
+      - name: Copy certificates
+        run: cp -r certificates dist/certificates
+
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
