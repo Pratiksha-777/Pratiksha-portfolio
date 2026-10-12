@@ -41,6 +41,9 @@ jobs:
       - name: Copy certificates
         run: cp -r certificates dist/certificates
 
+      - name: Copy project images
+        run: cp -r project-images dist/project-images
+
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
