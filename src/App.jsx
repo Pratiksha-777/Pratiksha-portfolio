@@ -232,7 +232,7 @@ function App() {
 
           <a
             className="nav-resume"
-            href="/resume.pdf"
+            href={`${import.meta.env.BASE_URL}resume.pdf`}
             download
             onClick={closeMenu}
           >
