@@ -121,44 +121,45 @@ const certificates = [
     issuer: "Outskill",
     type: "Certificate of Completion",
     year: "",
-    image: "/certificates/generative-ai-mastermind.png",
+    image: `${import.meta.env.BASE_URL}certificates/generative-ai-mastermind.png`,
   },
   {
     title: "VELORA-1.0 Hackathon",
     issuer: "MIT Academy of Engineering · CIPHER × IEEE",
     type: "Certificate of Participation",
     year: "2026",
-    image: "/certificates/velora-2026.png",
+    image: `${import.meta.env.BASE_URL}certificates/velora-2026.png`,
   },
   {
     title: "GirlScript Summer of Code",
     issuer: "GirlScript Foundation",
     type: "Certificate of Participation",
     year: "2026",
-    image: "/certificates/gssoc-2026.png",
+    image: `${import.meta.env.BASE_URL}certificates/gssoc-2026.png`,
   },
   {
     title: "Think Fest — Arduino Workshop",
     issuer: "AI & Robotics Club, KITCoEK",
     type: "Certificate of Participation",
     year: "2025",
-    image: "/certificates/think-fest-2025.png",
+    image: `${import.meta.env.BASE_URL}certificates/think-fest-2025.png`,
   },
   {
     title: "STRANGER CODE",
     issuer: "PIONEER 2026 · KITCoEK",
     type: "Certificate of Participation",
     year: "2026",
-    image: "/certificates/stranger-code-2026.png",
+    image: `${import.meta.env.BASE_URL}certificates/stranger-code-2026.png`,
   },
   {
     title: "Idea Forged",
     issuer: "ASSETS, KITCoEK",
     type: "Certificate of Participation",
     year: "2026",
-    image: "/certificates/idea-forged-2026.png",
+    image: `${import.meta.env.BASE_URL}certificates/idea-forged-2026.png`,
   },
 ];
+
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
