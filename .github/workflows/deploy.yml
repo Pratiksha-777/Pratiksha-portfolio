@@ -37,6 +37,12 @@ jobs:
 
       - name: Build website
         run: npm run build
+
+      - name: Verify resume PDF
+        run: |
+          ls -la public/
+          ls -la dist/
+          test -f dist/resume.pdf
         
       - name: Copy certificates
         run: cp -r certificates dist/certificates
