@@ -39,12 +39,12 @@ const projects = [
     github:
       "https://github.com/Pratiksha-777/hospital-queue-management-system",
     demo: "#contact",
-    image: "/project-images/mediqueue/dashboard.png",
-    gallery: [
-      "/project-images/mediqueue/dashboard.png",
-      "/project-images/mediqueue/queue-management.png",
-      "/project-images/mediqueue/emergency-handling.png",
-    ],
+  image: `${import.meta.env.BASE_URL}project-images/mediqueue/dashboard.png`,
+  gallery: [
+  `${import.meta.env.BASE_URL}project-images/mediqueue/dashboard.png`,
+  `${import.meta.env.BASE_URL}project-images/mediqueue/queue-management.png`,
+  `${import.meta.env.BASE_URL}project-images/mediqueue/emergency-handling.png`,
+],
   },
   {
     number: "02",
@@ -56,12 +56,12 @@ const projects = [
     accent: "violet",
     github: "https://github.com/Pratiksha-777/Smart-Shopping-Cart",
     demo: "#contact",
-    image: "/project-images/smart-shopping-cart/dashboard.png",
-    gallery: [
-      "/project-images/smart-shopping-cart/dashboard.png",
-      "/project-images/smart-shopping-cart/product-details.png",
-      "/project-images/smart-shopping-cart/weight-verification.png",
-    ],
+  image: `${import.meta.env.BASE_URL}project-images/smart-shopping-cart/dashboard.png`,
+gallery: [
+  `${import.meta.env.BASE_URL}project-images/smart-shopping-cart/dashboard.png`,
+  `${import.meta.env.BASE_URL}project-images/smart-shopping-cart/product-details.png`,
+  `${import.meta.env.BASE_URL}project-images/smart-shopping-cart/weight-verification.png`,
+],
   },
   {
     number: "03",
